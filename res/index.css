@@ -7,3 +7,11 @@
 .svg-icon {
   fill: #ffffff;
 }
+
+.post-link {
+  text-decoration: none;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
