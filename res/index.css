@@ -1,7 +1,7 @@
 .icon-link {
   width: 28px;
   display: inline-block;
-  margin-right: 4px;
+  margin-right: 8px;
 }
 
 .svg-icon {
@@ -10,6 +10,14 @@
 
 .post-link {
   text-decoration: none;
+}
+
+.header-link {
+  text-decoration: none;
+}
+
+.header-link:hover {
+  text-decoration: underline;
 }
 
 .post-link:hover {
