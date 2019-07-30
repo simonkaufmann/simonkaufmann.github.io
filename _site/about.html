@@ -183,6 +183,16 @@ body {font-size:16px;}
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+  <span class="w3-button w3-black w3-xxlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption"></p>
+  </div>
+</div>
+
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:390px;margin-right:40px">
 
@@ -192,7 +202,7 @@ body {font-size:16px;}
   <h1 class="w3-jumbo"><b>About</b></h1>
 </div>
 
-<p><img src="/res/simon_kaufmann_small.jpg" style="max-width: 100%; margin-right: 20px; margin-bottom: 20px; float: left" onclick="onClick(this)" /></p>
+<p><img src="/res/simon_kaufmann_small.jpg" style="max-width: 100%; margin-right: 20px; margin-bottom: 20px; float: left; cursor: pointer" onclick="onClick(this, '/res/simon_kaufmann.jpg')" /></p>
 
 <p>I’m a Computer Science and Mathematics student in my third year usually studying
 at <a href="https://www.ed.ac.uk/informatics">The University of Edinburgh</a> in Scotland. At the moment I am on exchange in California
@@ -205,7 +215,7 @@ as software engineer and learned a lot about web development, continuous integra
 the exciting low level stuff. However, these days web stuff got also quite cool
 and it’s fascinating what you can achieve with an hour of React.</p>
 
-<p>Check out my <a href="/projects">project page</a>, <a href="https://github.com/simonkaufmann">github</a> and <a href="/resume.pdf">resume / CV</a> for things I’ve built.</p>
+<p>Check out my <a href="/projects">project page</a>, <a href="https://github.com/simonkaufmann">Github</a>, <a href="https://linkedin.com/in/kaufmann-simon">LinkedIn</a> and <a href="/resume.pdf">resume / CV</a> for things I’ve built.</p>
 
 
 
@@ -230,8 +240,12 @@ function w3_close() {
 }
 
 // Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
+function onClick(element, src) {
+  if (src === "") {
+    document.getElementById("img01").src = element.src;
+  } else {
+    document.getElementById("img01").src = src;
+  }
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;

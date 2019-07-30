@@ -3,7 +3,7 @@ title: About
 layout: with_title
 ---
 
-<img src="/res/simon_kaufmann_small.jpg" style="max-width: 100%; margin-right: 20px; margin-bottom: 20px; float: left" onclick="onClick(this)"/>
+<img src="/res/simon_kaufmann_small.jpg" style="max-width: 100%; margin-right: 20px; margin-bottom: 20px; float: left; cursor: pointer" onclick="onClick(this, '/res/simon_kaufmann.jpg')"/>
 
 I'm a Computer Science and Mathematics student in my third year usually studying
 at [The University of Edinburgh](https://www.ed.ac.uk/informatics) in Scotland. At the moment I am on exchange in California
@@ -16,5 +16,5 @@ Whenever possible you'll find me using Linux and C. It's just the best for all
 the exciting low level stuff. However, these days web stuff got also quite cool
 and it's fascinating what you can achieve with an hour of React.
 
-Check out my [project page](/projects), [github](https://github.com/simonkaufmann) and [resume / CV](/resume.pdf) for things I've built.
+Check out my [project page](/projects), [Github](https://github.com/simonkaufmann), [LinkedIn](https://linkedin.com/in/kaufmann-simon) and [resume / CV](/resume.pdf) for things I've built.
 
