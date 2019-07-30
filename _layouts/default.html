@@ -185,7 +185,7 @@ body {font-size:16px;}
   <a href="/" class="w3-button w3-deep-purple w3-margin-right"><img style="height: 15px" src="/res/left-arrow.svg"></a>
   <a href="/" class="header-link"><span>Simon Kaufmann</span></a>
   {% if layout.with-title == 'yes' %}
-    <h1 class="w3-xxlarge">{{ page.title }}</h1>
+    <a href="{{ page.url }}" class="header-link"><h1 class="w3-xxlarge">{{ page.title }}</h1></a>
   {% endif %}
 </header>
 {% endif %}
@@ -202,7 +202,7 @@ body {font-size:16px;}
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:390px;margin-right:40px">
 
-<div class="w3-container">
+<div class="w3-container content-box">
 {{ content }}
 </div>
  
