@@ -5,7 +5,7 @@ layout: with_title
 
 <img src="/res/simon_kaufmann_small.jpg" style="max-width: 100%; margin-right: 20px; margin-bottom: 20px; float: left; cursor: pointer" onclick="onClick(this, '/res/simon_kaufmann.jpg')"/>
 
-I'm a Computer Science and Mathematics student in my third year usually studying
+I'm a Computer Science and Maths student in my third year usually studying
 at [The University of Edinburgh](https://www.ed.ac.uk/informatics) in Scotland. At the moment I am on exchange in California
 at UC [San Diego](https://ucsd.edu/).
 
