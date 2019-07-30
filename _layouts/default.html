@@ -116,6 +116,7 @@ body {font-size:16px;}
     <a href="/projects.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-large">Projects</a> 
     <a href="/resume.pdf" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-large">Resume / CV</a> 
     <!-- Icons from: https://github.com/simple-icons/simple-icons -->
+    <div class="w3-padding-16"></div>
     <div class="w3-padding-32 w3-bar-item">
       <div class="icon-link">
         <a class="icon-link" href="https://linkedin.com/in/kaufmann-simon">
@@ -182,7 +183,7 @@ body {font-size:16px;}
 <!-- Top menu on small screens -->
 <header class="w3-container w3-hide-large w3-deep-purple w3-xlarge w3-padding">
   <a href="/" class="w3-button w3-deep-purple w3-margin-right"><img style="height: 15px" src="/res/left-arrow.svg"></a>
-  <span>Simon Kaufmann</span>
+  <a href="/" class="header-link"><span>Simon Kaufmann</span></a>
   {% if layout.with-title == 'yes' %}
     <h1 class="w3-xxlarge">{{ page.title }}</h1>
   {% endif %}
