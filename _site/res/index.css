@@ -25,3 +25,8 @@
 .post-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 993px) {
+.big-title {
+  display: none
+}
