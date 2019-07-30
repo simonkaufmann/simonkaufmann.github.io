@@ -14,10 +14,12 @@
 
 .header-link {
   text-decoration: none;
+  color:inherit;
 }
 
 .header-link:hover {
   text-decoration: underline;
+  color:inherit;
 }
 
 .post-link:hover {
