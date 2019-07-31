@@ -35,3 +35,12 @@
 .content-box {
   max-width: 760px;
 }
+
+html {
+  min-height: 100%;
+  display: flex;
+}
+
+body {
+  flex: 1; /* for position footer at bottom of display or lower */
+}

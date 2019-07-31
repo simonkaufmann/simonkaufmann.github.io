@@ -1,6 +1,6 @@
 ---
 title: My Second Post
-layout: default
+layout: with_title
 ---
 
 More content
