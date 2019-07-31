@@ -9,7 +9,8 @@ mobile-header: full
     <hr style="width:50px;border:5px solid" class="w3-round w3-text-deep-purple">
     <p class="w3-text-grey">{{ post.date | date: "%b %-d, %Y" }}</p>
     <div class="w3-text-dark-grey">
-      {{ post.content }}
+      {{ post.content | strip_html | truncatewords: 100 }}
     </div>
+    <p><a href="{{ post.url }}" class="post-link">Read more...</a></p>
   </div>
 {% endfor %}
