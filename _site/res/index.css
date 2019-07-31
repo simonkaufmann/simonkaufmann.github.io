@@ -1,3 +1,18 @@
+html {
+  min-height: 100%;
+  display: flex;
+}
+
+body {
+  flex: 1; /* for position footer at bottom of display or lower */
+}
+
+.mobile-button{border:none;display:inline-block;padding:2px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+
+.mobile-bar-item{width:100%;display:block;padding:2px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+
+.mobile-bar-item{text-align:center}.w3-block{display:block;width:100%}
+
 .icon-link {
   width: 28px;
   display: inline-block;
@@ -36,18 +51,4 @@
   max-width: 760px;
 }
 
-html {
-  min-height: 100%;
-  display: flex;
-}
-
-body {
-  flex: 1; /* for position footer at bottom of display or lower */
-}
-
-.mobile-button{border:none;display:inline-block;padding:2px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
-
-.mobile-bar-item{width:100%;display:block;padding:2px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
-
-.mobile-bar-item{text-align:center}.w3-block{display:block;width:100%}
 
