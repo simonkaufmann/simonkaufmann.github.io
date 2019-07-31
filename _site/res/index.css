@@ -44,3 +44,10 @@ html {
 body {
   flex: 1; /* for position footer at bottom of display or lower */
 }
+
+.mobile-button{border:none;display:inline-block;padding:2px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+
+.w3-bar-block .mobile-bar-item{width:100%;display:block;padding:2px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+
+.w3-bar-block.w3-center .mobile-bar-item{text-align:center}.w3-block{display:block;width:100%}
+
