@@ -7,7 +7,7 @@ layout: with_title
 
 I'm a Computer Science and Maths student in my third year usually studying
 at [The University of Edinburgh](https://www.ed.ac.uk/informatics) in Scotland. At the moment I am on exchange in California
-at UC [San Diego](https://ucsd.edu/).
+at [UC San Diego](https://ucsd.edu/).
 
 In the past I've worked at [several](https://www.aceso.no/) [startups](http://www.list-engineering.at/), creating software and designing electronics. This summer I spent programming for an internship at [Cambridge Consultants](https://www.cambridgeconsultants.com/home), a technical consultancy with focus on medical, industrial and wireless technology.
 
