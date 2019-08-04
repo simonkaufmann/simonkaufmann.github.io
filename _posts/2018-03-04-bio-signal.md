@@ -18,6 +18,8 @@ the GTK+ framework to create a graphical user interface accessible via touchscre
 The muscle signal is going through an electronic amplifier, read by a Cypress
 PSoC microcontroller and then sent to the Raspberry Pi via UART for display.
 
+Code and [documentation](https://github.com/simonkaufmann/EMG-muscle-therapy-device/blob/master/manual/manual_emg_muscle_therapy_device.pdf) can be found on [Github](https://github.com/simonkaufmann/EMG-muscle-therapy-device)
+
 <div class="w3-row-padding">
 <div class="w3-half">
   <img src="/res/biosignal/setup.png" style="max-width: 100%;" onclick="onClick(this, '/res/biosignal/setup.png')"/>
