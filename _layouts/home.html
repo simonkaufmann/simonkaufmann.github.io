@@ -4,6 +4,7 @@ mobile-header: full
 ---
 
 {% for post in site.posts %}
+<div class="w3-hide-small">
   <div class="w3-container" id="services" style="margin-top:75px">
     <a class="post-link w3-text-deep-purple" href="{{ post.url }}"><h1 class="w3-xxlarge w3-text-deep-purple"><b>{{ post.title }}</b></h1></a>
     <hr style="width:50px;border:5px solid" class="w3-round w3-text-deep-purple">
@@ -13,4 +14,15 @@ mobile-header: full
     </div>
     <p><a href="{{ post.url }}" class="post-link">Read more...</a></p>
   </div>
+</div>
+<div class="w3-hide-medium w3-hide-large">
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <a class="post-link w3-text-deep-purple" href="{{ post.url }}"><h1 class="w3-xlarge w3-text-deep-purple"><b>{{ post.title }}</b></h1></a>
+    <hr style="width:50px;border:3px solid" class="w3-round w3-text-deep-purple">
+    <p class="w3-text-grey">{{ post.date | date: "%b %-d, %Y" }}</p>
+    <div class="w3-text-dark-grey">
+      {{ post.content | strip_html | truncatewords: 100 }}
+    </div>
+    <p><a href="{{ post.url }}" class="post-link">Read more...</a></p>
+</div>
 {% endfor %}
