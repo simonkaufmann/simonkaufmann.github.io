@@ -1,10 +1,13 @@
 ---
-title: Radio Direction Finding Transmitter
+title: ARDF Transmitter
 layout: with_title
 ---
 
-The aim of this project was the development of a universal, practicable ARDF 
-transmitter for the Austrian Amateur Radio Association (ÖVSV). The concept is 
+The aim of this project was the development of a universal, practicable ARDF
+transmitter for the Austrian Amateur Radio Association (ÖVSV). Amateur Radio
+Direction Finding or short ARDF is a racing contest where contestants 
+use special radio receivers helping them to search and find multple transmitters
+hidden in the surrounding terrain. The concept for this transmitter is 
 based on the diploma project “ARDF Duoband Transmitter” by Simon Außerlechner, 
 Clemens Moroder and Gerald Renner at HTL Anichstraße from 2006, with the design 
 revised and partly extended with new functionalities.
