@@ -1,6 +1,6 @@
 ---
 title: EMG Muscle Therapy Device
-layout: with_title
+layout: post 
 ---
 
 This project has been developed together with the NGO "A chance for children"

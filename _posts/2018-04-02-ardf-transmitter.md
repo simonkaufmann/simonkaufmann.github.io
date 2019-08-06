@@ -1,6 +1,6 @@
 ---
 title: ARDF Transmitter
-layout: with_title
+layout: post
 ---
 
 The aim of this project was the development of a universal, practicable ARDF
@@ -41,5 +41,3 @@ The thesis document (written in German) can be downloaded [here](http://ardf.hek
   <img src="/res/ardf/microcontroller.jpg" style="max-width: 100%;" onclick="onClick(this, '/res/ardf/microcontroller.jpg')"/>
 </div>
 </div>
-
-
