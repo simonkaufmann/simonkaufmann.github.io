@@ -15,7 +15,7 @@ Whenever possible you'll find me using Linux and C. It works just best for all
 the exciting low level stuff. However, these days web stuff got also quite cool
 and it's fascinating what you can achieve with an hour of React.
 
-Check out my [project page](/projects), [Github](https://github.com/simonkaufmann), [LinkedIn](https://linkedin.com/in/kaufmann-simon) and [resume / CV](/resume.pdf) for things I've built.
+Check out my [Github](https://github.com/simonkaufmann), [LinkedIn](https://linkedin.com/in/kaufmann-simon) and [resume / CV](/resume.pdf) for things I've built.
 
 
 
